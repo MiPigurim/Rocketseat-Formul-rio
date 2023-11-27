@@ -26,12 +26,12 @@
 
           <div class="input-wrapper">
             <label for="event-title">Título do evento <span>(mínimo 8 caracteres)</span></label>
-            <input type="text" id="event-title">
+            <input type="text" id="event-title" required minlength="8">
           </div>
    
           <div class="input-wrapper">
             <label for="event-link">Link do evento <span>(comece com https://)</span></label>
-            <input type="text" id="event-link">
+            <input type="text" id="event-link" required>
           </div>
 
           <div class="input-wrapper">
@@ -46,7 +46,7 @@
 
           <div class="input-wrapper">
             <label for="event-category">Categoria</label>
-            <select id="event-category">
+            <select id="event-category" required>
               <option value="live">Ao vivo</option>
               <option value="podcast">Podcast</option>
               <option value="mentorship">Mentoria</option>
@@ -62,12 +62,12 @@
 
           <div class="input-wrapper">
             <label for="event-email">E-mail do administrador <span>(digite um e-mail válido)</span></label>
-            <input type="text" id="event-email">
+            <input type="text" id="event-email" required>
           </div>
 
           <div class="input-wrapper">
             <label for="event-password">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
-            <input type="password" id="event-password">
+            <input type="password" id="event-password" required minlength="8">
           </div>
 
           <div class="checkbox-wrapper">
@@ -85,12 +85,12 @@
           <div class="col-3">
             <div class="input-wrapper">
               <label for="event-date">Data</label>
-              <input type="date" id="event-data">
+              <input type="date" id="event-data" required>
             </div>
   
             <div class="input-wrapper">
               <label for="event-begin">Das</label>
-              <input type="time" id="event-begin">
+              <input type="time" id="event-begin" required>
             </div>
 
             <div class="input-wrapper">
